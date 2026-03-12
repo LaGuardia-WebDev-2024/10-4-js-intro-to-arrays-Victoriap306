@@ -8,6 +8,16 @@ setup = function() {
     text("🍽", i, 370)
   }
 
+// Arrays 
+
+  var myFavs = "strawberry";
+  var myFavs = ["strawberry", "blueberry", "banana"];
+
+// myFavs[1]
+fill(225,0,0);
+text(myFavs[0], 10, 30);
+text(myFavs[1], 10, 80);
+text(myFavs[2], 10, 130);
 
 };
 
